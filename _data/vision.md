@@ -1,0 +1,3 @@
+## **VISION**
+
+"Green Energy Technology Industry Innovation and Promotion Action Plan," ("Action Plan") is a government-run project that aims to achieve energy independence and promote the development of green energy industries. With energy generation, energy conservation, energy storage, and smart system integration as its four dimensions, the government hopes to drive R&D with industrial demand, and to promote green industry development with R&D, creating an industrial ecosystem for green energy innovation. Through the promotion of green industries such as solar energy, wind power, and smart meters, as well as the construction of Shalun Smart Green Energy Science City, we seek to actualize the visions of green energy promotion and industry development.

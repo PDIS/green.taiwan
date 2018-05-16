@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% include head/seo.html %}
+		{% include head/include.html %}
+	</head>
+
+	<body class="homepage">
+		
+		{% include scripts.html %}
+
+		<div id="page-wrapper">
+
+			<div id="header">
+				{% include header/banner_big.html %}
+				{% include header/nav.html %}
+			</div>
+			
+			{% 
+				include text-content.html 
+				background-mode = "color" 
+				section = "vision"
+				background = "#EEE"
+				content = "_data/vision.md"
+			%}
+
+			{% 
+				include text-content.html 
+				background-mode = "color" 
+				section = "goals"
+				background = "#EEE, black"
+				content = "_data/goals.md"
+			%}
+
+			{% include actionplan.html %}
+
+			{% 
+				include text-content.html 
+				background-mode = "color" 
+				section = "second-text-content"
+				background = "#EEE, black"
+				content = "_data/advantages.md"
+			%}
+
+			{% include resource.html %}
+
+			{% include footer.html %}
+
+		</div>
+
+	</body>
+</html>

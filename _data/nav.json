@@ -1,0 +1,22 @@
+[
+    {
+        "link": "/#vision",
+        "title": "Vision"
+    },
+    {
+        "link": "/#goals",
+        "title": "Goals"
+    },
+    {
+        "link": "/#actions",
+        "title": "Actions"
+    },
+    {
+        "link": "/#resource",
+        "title": "Resources"
+    },
+    {
+        "link": "mailto:test@mail.com?subject=About * project",
+        "title": "Contact"
+    }
+]

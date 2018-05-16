@@ -1,0 +1,9 @@
+<nav id="nav">
+    <ul>
+        {% for item in site.data.nav %}
+        <li>
+            <a href="{{item.link}}" class="scrolly">{{item.title}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

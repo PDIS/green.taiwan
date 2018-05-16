@@ -1,0 +1,105 @@
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 15px;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+/* Accordion responsive breakpoint */
+
+@media only screen and (max-width: 768px) {
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+}
+
+/* Tabs container */
+
+.r-tabs {
+    position: relative;
+}
+
+/* Tab element */
+
+.r-tabs .r-tabs-nav .r-tabs-tab {
+    position: relative;
+    background-color: #fff;
+}
+
+/* Tab anchor */
+
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+    display: inline-block;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 14px;
+	color: black;
+	border: solid 1px #eee;
+}
+
+/* Disabled tab */
+
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+    opacity: 0.5;
+}
+
+/* Active state tab anchor */
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+    color: white;
+    text-shadow: none;
+    background-color: rgb(53, 177, 211);
+    border-color: rgb(53, 177, 211);
+}
+
+/* Tab panel */
+
+.r-tabs .r-tabs-panel {
+    background-color: white;
+    border-bottom: 4px solid white;
+}
+
+/* Accordion anchor */
+
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Active accordion anchor */
+
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+    background-color:  rgb(53, 177, 211);
+    color: white;
+    text-shadow: none;
+}
+
+/* Disabled accordion button */
+
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+    opacity: 0.5;
+}
